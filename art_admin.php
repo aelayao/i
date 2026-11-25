@@ -25,13 +25,13 @@
             <header>
                 <nav class="row yellow darken-1 right-align g-5">
                     <section class="container col s12 m12 l12">
-                        <a href="home.html" class="left"><img src="imgs/logo.png" alt="info games logo"
+                        <a href="home_adm.html" class="left"><img src="imgs/logo.png" alt="info games logo"
                                 class="responsive-img s1 l3 m2 hide-on-med-and-down" width="300"></a>
                         <ul class="right s12 l12 m12">
-                            <li><a href="home.html" class="grey-text text-darken-4 show-on-medium-and-down hide-on-med-and-up">InfoGames</a>
-                            <li><a href="todos_usr.html" class="grey-text text-darken-4 " id="nav1">todos los artículos</a>
+                            <li><a href="home_adm.html" class="grey-text text-darken-4 show-on-medium-and-down hide-on-med-and-up">InfoGames</a>
+                            <li><a href="todos_admin.html" class="grey-text text-darken-4 " id="nav1">todos los artículos</a>
                             </li>
-                            <li><a href="perfil.html" class="grey-text text-darken-4" id="nav2">perfil</a></li>
+                            <li><a href="perfil_adm.html" class="grey-text text-darken-4" id="nav2">perfil</a></li>
                             <li><a href="cerrar_sesion.html" class="grey-text text-darken-4" id="nav3">cerrar sesión</a>
                             </li>
                         </ul>
@@ -40,7 +40,7 @@
             </header>
         </div>
         <div class="row margen">
-            <aside class="col s12 m3 l3 blue-grey darken-2 grey-text text-lighten-5 left">
+            <aside class="col s12 m3 l2 blue-grey darken-2 grey-text text-lighten-5">
                 <h3 id="sustitulo">Indice</h3>
                 <p><b>Nombre</b></p>
                 <ul class="browser-default">
@@ -54,7 +54,7 @@
                 </ul>
             </aside>
 
-            <main class="col s12 m9 l9 grey lighten-5 right" id="cont_lateral">
+            <main class="col s12 m9 l10 grey lighten-5" id="cont_lateral">
                 <section>
                     <h2 class="indigo lighten-4">Nombre de juego</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -115,7 +115,7 @@
                     <h4>Agregar comentario:</h4>
                     <form action="">
                         <textarea name="" id="" class=" inpt_med" placeholder="Escribe un comentario..." rows="10" cols="50"></textarea><br>
-                        <button type="submit" class="boton light-green accent-4">GUARDAR</button>
+                        <button type="submit" class="boton light-green accent-4">GUARDAR</button> <a href="crear.html"class="boton pink">EDITAR</a>
                     </form>
                 </section>
             </main>

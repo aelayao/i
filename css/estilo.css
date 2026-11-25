@@ -58,10 +58,22 @@ nav a, #text_desc{
     background-color: var(--gris_osc);
     font-size: 18px;
 }
+.cont_img_sh{
+    padding: 15px;
+    margin: 20px 15px;
+    border-radius: 0 40px;
+    background-color: var(--gris_osc);
+    font-size: 18px;
+}
 .link{
     font-weight: bold;
     color: var(--azul_osc);
     text-decoration: underline;
+    font-size: 18px;
+}
+.link_reg{
+    color: var(--rojo);
+    font-weight: bold;
     font-size: 18px;
 }
 
@@ -103,6 +115,9 @@ footer{
 }
 .link:hover{
     color: var(--rojo_ocs);
+}
+.link_reg:hover{
+    text-decoration: underline;
 }
 aside{
     border-radius: 60px 0 0 60px;
